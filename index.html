@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Задание 1</title>
+</head>
+<body>
+    Подключение к серверу kubsu-dev.ru по ssh через клиент Putty <br>
+    <img src="1.connect.png"><br>
+    <p>Использование команды ping</p>
+    <p>Команда ping проверила доступность сайта kubsu.ru и сервера kubsu-dev.ru и измерила время, за которое пакет дошел до устройств и вернулся обратно</p>
+    <br><img src="2.ping.png"><br><br>
+    <p>Использование команды nslookup для домена kubsu.ru</p> 
+    <p>nslookup используется для получения IP-адреса домена или имени сервера по IP</p>
+    <p>nslookup -type=A запрашивает A-запись домена, то есть его IPv4-адрес</p>
+    <p>A-запись (Address Record) — это DNS-запись, которая связывает доменное имя с его IPv4-адресом.</p><br>
+    <img src="3.lookup_kubsu.png"><br><br>
+    <p>Использование команды nslookup, чтобы узнать A-запись и MX-запись домена kubsu-dev.ru</p>
+    <p>nslookup -type=MX запрашивает MX-записи домена, то есть почтовые серверы, обрабатывающие email для этого домена.</p>
+    <p>MX-запись (Mail Exchange Record) — это DNS-запись, указывающая, какие почтовые серверы принимают email для домена.</p><br>
+    <img src="3.lookup_kubsu-dev.png"><br><br>
+    <p>Использование команды whois</p>
+    <p>whois — показывает информацию о доменах kubsu.ru и kubsu-dev.ru: владельца, дату регистрации, контактные данные и DNS-серверы.</p><br>
+    <img src="4.whois.png"><br>
+  </body>
+</html>
